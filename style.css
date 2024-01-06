@@ -1,0 +1,94 @@
+.container{
+    background-color: black;
+ padding: 0px 80px;    
+ width: 500px;
+    margin: auto;
+    font-size: xx-large;
+    color: white;
+    height: 600px;
+    justify-content: space-between 200px;
+    
+    
+}
+
+    
+
+.header{
+    display: flex;
+    border-bottom: 1px dotted white;
+    
+}
+
+.opcoes{
+background-color:black;
+fill: white;
+border-radius: 1000px;
+border: none;
+right: 300px;
+top: 300px;
+
+}
+.opcoes:hover .drop{
+
+
+}
+
+
+
+
+.mensagem .drop {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.mensagem:hover .drop {
+    display: block
+}
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: large;
+
+}
+.mensagem{
+    background-color: #3b4a54;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 15px; 
+    position: relative;
+}
+.mensagem > svg{
+    bottom: 3px;
+    position: absolute;
+    right: 5px;
+
+}
+
+.mensagemdestinatario{
+    background-color: #00a884;;
+    width: fit-content;
+    border-radius: 10px;
+ align-self: flex-end;
+ padding: 15px;
+ position: relative;
+
+}
+.mensagemdestinatario svg{
+    bottom: 3px;
+    position: absolute;
+    right: 5px;
+}
+
+.visualizado{
+    fill: aqua;
+    
+}
+
+.novisu{
+    fill: white;
+    color: white;
+}
